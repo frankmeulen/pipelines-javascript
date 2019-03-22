@@ -5,6 +5,8 @@ pool:
 
 variables:
   imageName: 'nodejssample:$(Build.BuildId)'
+  dockerId: 'nodejscontainertest'
+  dockerPassword: 'I8sEnkihcWRg184J9D+5xugpdUfknVkD'
   # define two more variables dockerId and dockerPassword in the build pipeline in UI
 
 steps:
